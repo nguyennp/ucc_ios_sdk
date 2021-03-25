@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		LSm/l1BMHkKUGn6Noo5DtOa2OVY=
+		sA2u9UKDdYKtphbKmyyPNcXuJgE=
 		</data>
 		<key>Headers/VNPTVideoCallSDK-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>IncomingCallViewController.nib</key>
 		<data>
-		Bpx3Dw/uyrZd4FaGchVLnEM7QKk=
+		exsch3qjfdDkibcMufHVV7dSRx4=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -30,27 +30,27 @@
 		</data>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		sgigH2toDvNYAlmyh4ZOiU6xEVg=
+		y0DzxIbmxo51W7tpJ+CcIlBvv1Q=
 		</data>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		sgigH2toDvNYAlmyh4ZOiU6xEVg=
+		y0DzxIbmxo51W7tpJ+CcIlBvv1Q=
 		</data>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		hWAtnL+/uM8o5vPrG7f72Yf2mVA=
+		XarhN88PoMvVL7HJZtOew9Du2Dc=
 		</data>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		0sSyAUSCIPe4cgmGqM4sYwnXK4A=
+		ndZGrtgUyVzGUP7sIanDY2PTdj8=
 		</data>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		hWAtnL+/uM8o5vPrG7f72Yf2mVA=
+		XarhN88PoMvVL7HJZtOew9Du2Dc=
 		</data>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		0sSyAUSCIPe4cgmGqM4sYwnXK4A=
+		ndZGrtgUyVzGUP7sIanDY2PTdj8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>OutgoingCallViewController.nib</key>
 		<data>
-		Dp9ERnSlj2vRR/wy7JMODyeOONY=
+		Bo+lB4yAHLbUShNkImsEmzXeUNo=
 		</data>
 		<key>api.idg.vnpt.vn.cer</key>
 		<data>
@@ -83,7 +83,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/llX6x4mbWSYO3o+uG3R5+ftiOfH4aYG+pURObKcpsU=
+			ot5LgKLOoPkTsYGMIv1x0WHwNByYMupKhbXIT0Dz4q8=
 			</data>
 		</dict>
 		<key>Headers/VNPTVideoCallSDK-Swift.h</key>
@@ -104,7 +104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Iqy5NMeLoVXCuNdD8H/R1OVP3nlY2JIZVn4LLLL0yvk=
+			ij97uQpWQUTLHIISMPntH/2ORN9xRjDTDdvbGiwXxh0=
 			</data>
 		</dict>
 		<key>Localizable.strings</key>
@@ -118,42 +118,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cu5+WntGnQE2gEabGblshNfjasBzrnkn/k6iGztgjUs=
+			lW45pV6A+IAVZjMJEtHL9u+bBPwBmhm6BhO1/Q+3JLo=
 			</data>
 		</dict>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cu5+WntGnQE2gEabGblshNfjasBzrnkn/k6iGztgjUs=
+			lW45pV6A+IAVZjMJEtHL9u+bBPwBmhm6BhO1/Q+3JLo=
 			</data>
 		</dict>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W8lC863zRLSvnBrXbUvHTmi+WOhKK4ZrodDoGgSuTKU=
+			eUNjE49o2xIgbxyt3gSchYCsKAHs2g3mIvTX3/Tec1E=
 			</data>
 		</dict>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XLqi3ydydh4sK4ZhIv98X0af7V1q1953IDdYrAdCU+k=
+			sd3J3WFYrKo4Z16nUC2MHTKOBD2DaRvvEdxKo+rCT0Q=
 			</data>
 		</dict>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W8lC863zRLSvnBrXbUvHTmi+WOhKK4ZrodDoGgSuTKU=
+			eUNjE49o2xIgbxyt3gSchYCsKAHs2g3mIvTX3/Tec1E=
 			</data>
 		</dict>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XLqi3ydydh4sK4ZhIv98X0af7V1q1953IDdYrAdCU+k=
+			sd3J3WFYrKo4Z16nUC2MHTKOBD2DaRvvEdxKo+rCT0Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -167,7 +167,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bD1zx/h1xC+Ste0GnMBZZNnOodZth18KoXLNZKT8nso=
+			q93KYYMQRu3XeQjQveSvKXLtEihWQa1y1OdKojO/j4g=
 			</data>
 		</dict>
 		<key>api.idg.vnpt.vn.cer</key>
