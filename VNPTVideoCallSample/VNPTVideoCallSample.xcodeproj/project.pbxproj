@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0738AD8D2541861B00FD9FD3 /* +String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0738AD8C2541861B00FD9FD3 /* +String.swift */; };
+		0760B92D25429BD100153F34 /* TabContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760B92B25429BD100153F34 /* TabContactsViewController.swift */; };
+		0760B92E25429BD100153F34 /* TabContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0760B92C25429BD100153F34 /* TabContactsViewController.xib */; };
+		0760B93225429BF300153F34 /* TabSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760B93025429BF300153F34 /* TabSettingsViewController.swift */; };
+		0760B93325429BF300153F34 /* TabSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0760B93125429BF300153F34 /* TabSettingsViewController.xib */; };
+		0760B9472542A39E00153F34 /* TabCallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760B9452542A39E00153F34 /* TabCallsViewController.swift */; };
+		0760B9482542A39E00153F34 /* TabCallsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0760B9462542A39E00153F34 /* TabCallsViewController.xib */; };
+		07A90A7B25807CE0002DF00D /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A90A7A25807CE0002DF00D /* Enviroment.swift */; };
+		07F141CD252D966D00678F4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F141CC252D966D00678F4F /* AppDelegate.swift */; };
+		07F141D6252D966E00678F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F141D5252D966E00678F4F /* Assets.xcassets */; };
+		07F141D9252D966E00678F4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F141D7252D966E00678F4F /* LaunchScreen.storyboard */; };
+		07F14273252D98E400678F4F /* Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F14257252D98E400678F4F /* Validate.swift */; };
+		07F14274252D98E400678F4F /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F14259252D98E400678F4F /* SkyFloatingLabelTextField.swift */; };
+		07F14275252D98E400678F4F /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F1425A252D98E400678F4F /* UITextField+fixCaretPosition.swift */; };
+		07F14276252D98E400678F4F /* MySkyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F1425B252D98E400678F4F /* MySkyTextField.swift */; };
+		07F14278252D98E400678F4F /* MyAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F1425D252D98E400678F4F /* MyAlert.swift */; };
+		07F14279252D98E400678F4F /* +UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F1425F252D98E400678F4F /* +UIApplication.swift */; };
+		07F1427A252D98E400678F4F /* +UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F14260252D98E400678F4F /* +UIColor.swift */; };
+		07F1427B252D98E400678F4F /* +UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F14261252D98E400678F4F /* +UILabel.swift */; };
+		07F1427C252D98E400678F4F /* +UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F14262252D98E400678F4F /* +UIView.swift */; };
+		07F1427D252D98E400678F4F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F14264252D98E400678F4F /* Person.swift */; };
+		07F1427E252D98E400678F4F /* UserDefaultsRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F14265252D98E400678F4F /* UserDefaultsRepo.swift */; };
+		07F1427F252D98E400678F4F /* AddNewPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F14268252D98E400678F4F /* AddNewPersonViewController.swift */; };
+		07F14280252D98E400678F4F /* AddNewPersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F14269252D98E400678F4F /* AddNewPersonViewController.xib */; };
+		07F14281252D98E400678F4F /* SplashScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F1426B252D98E400678F4F /* SplashScreenViewController.xib */; };
+		07F14282252D98E400678F4F /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F1426C252D98E400678F4F /* SplashScreenViewController.swift */; };
+		07F14283252D98E400678F4F /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F1426E252D98E400678F4F /* MainViewController.xib */; };
+		07F14284252D98E400678F4F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F1426F252D98E400678F4F /* MainViewController.swift */; };
+		07F14285252D98E400678F4F /* PersonViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F14271252D98E400678F4F /* PersonViewCell.xib */; };
+		07F14286252D98E400678F4F /* PersonViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F14272252D98E400678F4F /* PersonViewCell.swift */; };
+		D7476A4A2603411200E73CBB /* ToastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7476A492603411200E73CBB /* ToastService.swift */; };
+		D7509592260C4295008FDD3A /* VNPTVideoCallSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7509590260C428E008FDD3A /* VNPTVideoCallSDK.framework */; };
+		D7509593260C4295008FDD3A /* VNPTVideoCallSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7509590260C428E008FDD3A /* VNPTVideoCallSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E8C2DE544ECDA5F1D7A87927 /* Pods_VNPTVideoCallSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D99E191F11FF15CA527E77D /* Pods_VNPTVideoCallSample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07A90A662580661A002DF00D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D7509593260C4295008FDD3A /* VNPTVideoCallSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0738AD8C2541861B00FD9FD3 /* +String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+String.swift"; sourceTree = "<group>"; };
+		0760B92B25429BD100153F34 /* TabContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContactsViewController.swift; sourceTree = "<group>"; };
+		0760B92C25429BD100153F34 /* TabContactsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabContactsViewController.xib; sourceTree = "<group>"; };
+		0760B93025429BF300153F34 /* TabSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSettingsViewController.swift; sourceTree = "<group>"; };
+		0760B93125429BF300153F34 /* TabSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabSettingsViewController.xib; sourceTree = "<group>"; };
+		0760B9452542A39E00153F34 /* TabCallsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCallsViewController.swift; sourceTree = "<group>"; };
+		0760B9462542A39E00153F34 /* TabCallsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabCallsViewController.xib; sourceTree = "<group>"; };
+		07A90A7A25807CE0002DF00D /* Enviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
+		07F141CC252D966D00678F4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07F141D5252D966E00678F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07F141D8252D966E00678F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07F141DA252D966E00678F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F14257252D98E400678F4F /* Validate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validate.swift; sourceTree = "<group>"; };
+		07F14259252D98E400678F4F /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		07F1425A252D98E400678F4F /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		07F1425B252D98E400678F4F /* MySkyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySkyTextField.swift; sourceTree = "<group>"; };
+		07F1425D252D98E400678F4F /* MyAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAlert.swift; sourceTree = "<group>"; };
+		07F1425F252D98E400678F4F /* +UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "+UIApplication.swift"; sourceTree = "<group>"; };
+		07F14260252D98E400678F4F /* +UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "+UIColor.swift"; sourceTree = "<group>"; };
+		07F14261252D98E400678F4F /* +UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "+UILabel.swift"; sourceTree = "<group>"; };
+		07F14262252D98E400678F4F /* +UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "+UIView.swift"; sourceTree = "<group>"; };
+		07F14264252D98E400678F4F /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		07F14265252D98E400678F4F /* UserDefaultsRepo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsRepo.swift; sourceTree = "<group>"; };
+		07F14268252D98E400678F4F /* AddNewPersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewPersonViewController.swift; sourceTree = "<group>"; };
+		07F14269252D98E400678F4F /* AddNewPersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddNewPersonViewController.xib; sourceTree = "<group>"; };
+		07F1426B252D98E400678F4F /* SplashScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashScreenViewController.xib; sourceTree = "<group>"; };
+		07F1426C252D98E400678F4F /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		07F1426E252D98E400678F4F /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		07F1426F252D98E400678F4F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		07F14271252D98E400678F4F /* PersonViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonViewCell.xib; sourceTree = "<group>"; };
+		07F14272252D98E400678F4F /* PersonViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewCell.swift; sourceTree = "<group>"; };
+		07F1429B252D9A3900678F4F /* VNPTVideoCallSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VNPTVideoCallSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F142A1252D9CA200678F4F /* VNPTVideoCallSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VNPTVideoCallSample.entitlements; sourceTree = "<group>"; };
+		2D99E191F11FF15CA527E77D /* Pods_VNPTVideoCallSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VNPTVideoCallSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE268D9DFD8CD845C716483 /* Pods-VNPTVideoCallSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNPTVideoCallSample.debug.xcconfig"; path = "Target Support Files/Pods-VNPTVideoCallSample/Pods-VNPTVideoCallSample.debug.xcconfig"; sourceTree = "<group>"; };
+		62EAD9EF2573019F69058DF0 /* Pods-VNPTVideoCallSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNPTVideoCallSample.release.xcconfig"; path = "Target Support Files/Pods-VNPTVideoCallSample/Pods-VNPTVideoCallSample.release.xcconfig"; sourceTree = "<group>"; };
+		D7476A492603411200E73CBB /* ToastService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastService.swift; sourceTree = "<group>"; };
+		D7509590260C428E008FDD3A /* VNPTVideoCallSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VNPTVideoCallSDK.framework; sourceTree = "<group>"; };
+		D7B8DC1A260C2F0E00C6BFB8 /* VNPTVideoCallSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VNPTVideoCallSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07F141C6252D966D00678F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8C2DE544ECDA5F1D7A87927 /* Pods_VNPTVideoCallSample.framework in Frameworks */,
+				D7509592260C4295008FDD3A /* VNPTVideoCallSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0760B92A25429B5F00153F34 /* TabContacts */ = {
+			isa = PBXGroup;
+			children = (
+				07F14270252D98E400678F4F /* ViewCell */,
+				0760B92B25429BD100153F34 /* TabContactsViewController.swift */,
+				0760B92C25429BD100153F34 /* TabContactsViewController.xib */,
+			);
+			path = TabContacts;
+			sourceTree = "<group>";
+		};
+		0760B92F25429BD600153F34 /* TabSettings */ = {
+			isa = PBXGroup;
+			children = (
+				0760B93025429BF300153F34 /* TabSettingsViewController.swift */,
+				0760B93125429BF300153F34 /* TabSettingsViewController.xib */,
+			);
+			path = TabSettings;
+			sourceTree = "<group>";
+		};
+		0760B9442542A38600153F34 /* TabCalls */ = {
+			isa = PBXGroup;
+			children = (
+				0760B9452542A39E00153F34 /* TabCallsViewController.swift */,
+				0760B9462542A39E00153F34 /* TabCallsViewController.xib */,
+			);
+			path = TabCalls;
+			sourceTree = "<group>";
+		};
+		07A90A5225806571002DF00D /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				07A90A682580673C002DF00D /* VNPTVideoCallSDK */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		07A90A682580673C002DF00D /* VNPTVideoCallSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D7509590260C428E008FDD3A /* VNPTVideoCallSDK.framework */,
+			);
+			path = VNPTVideoCallSDK;
+			sourceTree = "<group>";
+		};
+		07F141C0252D966D00678F4F = {
+			isa = PBXGroup;
+			children = (
+				07F141CB252D966D00678F4F /* VNPTVideoCallSample */,
+				449FF62A7EC7B0E2ED5EE614 /* Frameworks */,
+				7EF8AD69F5878976E841A477 /* Pods */,
+				D7B8DC1A260C2F0E00C6BFB8 /* VNPTVideoCallSample.app */,
+			);
+			sourceTree = "<group>";
+		};
+		07F141CB252D966D00678F4F /* VNPTVideoCallSample */ = {
+			isa = PBXGroup;
+			children = (
+				07F142A1252D9CA200678F4F /* VNPTVideoCallSample.entitlements */,
+				07F14288252D98E700678F4F /* Application */,
+				07F1428A252D990800678F4F /* Assets */,
+				07F14256252D98E400678F4F /* Common */,
+				07F14263252D98E400678F4F /* Data */,
+				07F14266252D98E400678F4F /* Scene */,
+				07A90A5225806571002DF00D /* SDK */,
+			);
+			path = VNPTVideoCallSample;
+			sourceTree = "<group>";
+		};
+		07F14256252D98E400678F4F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				07F1425E252D98E400678F4F /* Custom */,
+				07F14258252D98E400678F4F /* TextField */,
+				07F1425D252D98E400678F4F /* MyAlert.swift */,
+				07F14257252D98E400678F4F /* Validate.swift */,
+				07A90A7A25807CE0002DF00D /* Enviroment.swift */,
+				D7476A492603411200E73CBB /* ToastService.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		07F14258252D98E400678F4F /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				07F14259252D98E400678F4F /* SkyFloatingLabelTextField.swift */,
+				07F1425A252D98E400678F4F /* UITextField+fixCaretPosition.swift */,
+				07F1425B252D98E400678F4F /* MySkyTextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		07F1425E252D98E400678F4F /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				07F1425F252D98E400678F4F /* +UIApplication.swift */,
+				07F14260252D98E400678F4F /* +UIColor.swift */,
+				07F14261252D98E400678F4F /* +UILabel.swift */,
+				07F14262252D98E400678F4F /* +UIView.swift */,
+				0738AD8C2541861B00FD9FD3 /* +String.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		07F14263252D98E400678F4F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				07F14264252D98E400678F4F /* Person.swift */,
+				07F14265252D98E400678F4F /* UserDefaultsRepo.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		07F14266252D98E400678F4F /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				07F14267252D98E400678F4F /* AddNewPerson */,
+				07F1426A252D98E400678F4F /* SplashScreen */,
+				07F1426D252D98E400678F4F /* Main */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		07F14267252D98E400678F4F /* AddNewPerson */ = {
+			isa = PBXGroup;
+			children = (
+				07F14268252D98E400678F4F /* AddNewPersonViewController.swift */,
+				07F14269252D98E400678F4F /* AddNewPersonViewController.xib */,
+			);
+			path = AddNewPerson;
+			sourceTree = "<group>";
+		};
+		07F1426A252D98E400678F4F /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				07F1426B252D98E400678F4F /* SplashScreenViewController.xib */,
+				07F1426C252D98E400678F4F /* SplashScreenViewController.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		07F1426D252D98E400678F4F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0760B9442542A38600153F34 /* TabCalls */,
+				0760B92F25429BD600153F34 /* TabSettings */,
+				0760B92A25429B5F00153F34 /* TabContacts */,
+				07F1426E252D98E400678F4F /* MainViewController.xib */,
+				07F1426F252D98E400678F4F /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		07F14270252D98E400678F4F /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				07F14271252D98E400678F4F /* PersonViewCell.xib */,
+				07F14272252D98E400678F4F /* PersonViewCell.swift */,
+			);
+			path = ViewCell;
+			sourceTree = "<group>";
+		};
+		07F14288252D98E700678F4F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				07F141CC252D966D00678F4F /* AppDelegate.swift */,
+				07F141D7252D966E00678F4F /* LaunchScreen.storyboard */,
+				07F141DA252D966E00678F4F /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		07F1428A252D990800678F4F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				07F141D5252D966E00678F4F /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		449FF62A7EC7B0E2ED5EE614 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07F1429B252D9A3900678F4F /* VNPTVideoCallSDK.framework */,
+				2D99E191F11FF15CA527E77D /* Pods_VNPTVideoCallSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EF8AD69F5878976E841A477 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EE268D9DFD8CD845C716483 /* Pods-VNPTVideoCallSample.debug.xcconfig */,
+				62EAD9EF2573019F69058DF0 /* Pods-VNPTVideoCallSample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07F141C8252D966D00678F4F /* VNPTVideoCallSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F141DD252D966E00678F4F /* Build configuration list for PBXNativeTarget "VNPTVideoCallSample" */;
+			buildPhases = (
+				0ECB690EA68E15745858CB5F /* [CP] Check Pods Manifest.lock */,
+				07F141C5252D966D00678F4F /* Sources */,
+				07F141C6252D966D00678F4F /* Frameworks */,
+				07F141C7252D966D00678F4F /* Resources */,
+				0248E4E3560B37A523DE0824 /* [CP] Embed Pods Frameworks */,
+				07A90A662580661A002DF00D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VNPTVideoCallSample;
+			productName = VNPTVideoCallSample;
+			productReference = D7B8DC1A260C2F0E00C6BFB8 /* VNPTVideoCallSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07F141C1252D966D00678F4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					07F141C8252D966D00678F4F = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 07F141C4252D966D00678F4F /* Build configuration list for PBXProject "VNPTVideoCallSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07F141C0252D966D00678F4F;
+			productRefGroup = 07F141C0252D966D00678F4F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07F141C8252D966D00678F4F /* VNPTVideoCallSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07F141C7252D966D00678F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F141D9252D966E00678F4F /* LaunchScreen.storyboard in Resources */,
+				07F14285252D98E400678F4F /* PersonViewCell.xib in Resources */,
+				0760B92E25429BD100153F34 /* TabContactsViewController.xib in Resources */,
+				07F14281252D98E400678F4F /* SplashScreenViewController.xib in Resources */,
+				0760B9482542A39E00153F34 /* TabCallsViewController.xib in Resources */,
+				07F14283252D98E400678F4F /* MainViewController.xib in Resources */,
+				0760B93325429BF300153F34 /* TabSettingsViewController.xib in Resources */,
+				07F14280252D98E400678F4F /* AddNewPersonViewController.xib in Resources */,
+				07F141D6252D966E00678F4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0248E4E3560B37A523DE0824 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VNPTVideoCallSample/Pods-VNPTVideoCallSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VNPTVideoCallSample/Pods-VNPTVideoCallSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VNPTVideoCallSample/Pods-VNPTVideoCallSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0ECB690EA68E15745858CB5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VNPTVideoCallSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07F141C5252D966D00678F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0760B9472542A39E00153F34 /* TabCallsViewController.swift in Sources */,
+				07F1427A252D98E400678F4F /* +UIColor.swift in Sources */,
+				07F14278252D98E400678F4F /* MyAlert.swift in Sources */,
+				07F14274252D98E400678F4F /* SkyFloatingLabelTextField.swift in Sources */,
+				07F14286252D98E400678F4F /* PersonViewCell.swift in Sources */,
+				07F1427E252D98E400678F4F /* UserDefaultsRepo.swift in Sources */,
+				07F1427F252D98E400678F4F /* AddNewPersonViewController.swift in Sources */,
+				07F141CD252D966D00678F4F /* AppDelegate.swift in Sources */,
+				0760B93225429BF300153F34 /* TabSettingsViewController.swift in Sources */,
+				07F14284252D98E400678F4F /* MainViewController.swift in Sources */,
+				07F14279252D98E400678F4F /* +UIApplication.swift in Sources */,
+				07A90A7B25807CE0002DF00D /* Enviroment.swift in Sources */,
+				07F14282252D98E400678F4F /* SplashScreenViewController.swift in Sources */,
+				07F1427D252D98E400678F4F /* Person.swift in Sources */,
+				0760B92D25429BD100153F34 /* TabContactsViewController.swift in Sources */,
+				D7476A4A2603411200E73CBB /* ToastService.swift in Sources */,
+				07F1427B252D98E400678F4F /* +UILabel.swift in Sources */,
+				07F14275252D98E400678F4F /* UITextField+fixCaretPosition.swift in Sources */,
+				07F14273252D98E400678F4F /* Validate.swift in Sources */,
+				0738AD8D2541861B00FD9FD3 /* +String.swift in Sources */,
+				07F14276252D98E400678F4F /* MySkyTextField.swift in Sources */,
+				07F1427C252D98E400678F4F /* +UIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07F141D7252D966E00678F4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F141D8252D966E00678F4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07F141DB252D966E00678F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07F141DC252D966E00678F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07F141DE252D966E00678F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EE268D9DFD8CD845C716483 /* Pods-VNPTVideoCallSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VNPTVideoCallSample/VNPTVideoCallSample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 27;
+				DEVELOPMENT_TEAM = JPMH34L85K;
+				"EXCLUDED_ARCHS[sdk=*]" = armv7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VNPTVideoCallSample/SDK",
+					"$(PROJECT_DIR)/VNPTVideoCallSample/SDK/VNPTVideoCallSDK",
+				);
+				INFOPLIST_FILE = VNPTVideoCallSample/Application/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "2.0.7_release_alpha(dev)";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.vnpt.idgai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07F141DF252D966E00678F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62EAD9EF2573019F69058DF0 /* Pods-VNPTVideoCallSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VNPTVideoCallSample/VNPTVideoCallSample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 27;
+				DEVELOPMENT_TEAM = JPMH34L85K;
+				"EXCLUDED_ARCHS[sdk=*]" = armv7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VNPTVideoCallSample/SDK",
+					"$(PROJECT_DIR)/VNPTVideoCallSample/SDK/VNPTVideoCallSDK",
+				);
+				INFOPLIST_FILE = VNPTVideoCallSample/Application/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "2.0.7_release_alpha(dev)";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.vnpt.idgai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07F141C4252D966D00678F4F /* Build configuration list for PBXProject "VNPTVideoCallSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F141DB252D966E00678F4F /* Debug */,
+				07F141DC252D966E00678F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F141DD252D966E00678F4F /* Build configuration list for PBXNativeTarget "VNPTVideoCallSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F141DE252D966E00678F4F /* Debug */,
+				07F141DF252D966E00678F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07F141C1252D966D00678F4F /* Project object */;
+}

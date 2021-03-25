@@ -1,0 +1,40 @@
+PODS:
+  - EmptyDataSet-Swift (5.0.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - JitsiMeetSDK (2.11.0)
+  - ObjectMapper (3.4.2)
+  - RxSwift (5.1.2)
+  - SocketRocket (0.5.1)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - EmptyDataSet-Swift
+  - IQKeyboardManagerSwift
+  - JitsiMeetSDK (= 2.11.0)
+  - ObjectMapper
+  - RxSwift (~> 5.0)
+  - SocketRocket
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - EmptyDataSet-Swift
+    - IQKeyboardManagerSwift
+    - JitsiMeetSDK
+    - ObjectMapper
+    - RxSwift
+    - SocketRocket
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  EmptyDataSet-Swift: eb382c0c87a2d9c678077385a595cec52da38171
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  JitsiMeetSDK: ddc915b751b0166aa4fdfee938bd60cc87aff9f3
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  RxSwift: 1e2e1f9570186967f617e49128ed26ccf1bafc8e
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: a10b19dec1d0a7b7d41ab2de9c92c2e76602c2b4
+
+COCOAPODS: 1.10.1

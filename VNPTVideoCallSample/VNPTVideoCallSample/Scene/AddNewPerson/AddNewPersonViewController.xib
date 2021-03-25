@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddNewPersonViewController" customModule="VNPTVideoCallSample" customModuleProvider="target">
+            <connections>
+                <outlet property="btnCancel" destination="EuA-gL-hx1" id="pUP-pY-LJZ"/>
+                <outlet property="btnSave" destination="YRh-6W-27K" id="sfK-df-I8d"/>
+                <outlet property="lblTitle" destination="pzA-6p-JHT" id="Hnh-Dn-msN"/>
+                <outlet property="txtDeviceId" destination="fJl-Zj-6dH" id="MYw-fU-ZcQ"/>
+                <outlet property="txtHoTen" destination="r9O-aM-7Mf" id="8fJ-Yw-AVB"/>
+                <outlet property="txtMoTa" destination="5dy-p2-E7y" id="5Br-de-oGl"/>
+                <outlet property="view" destination="mCE-h3-nMO" id="eg6-ac-2XI"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="mCE-h3-nMO">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LWC-et-tD4" userLabel="Background">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <viewLayoutGuide key="safeArea" id="yuL-W0-AC2"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <gestureRecognizers/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MBB-ZE-ofH" userLabel="Content">
+                    <rect key="frame" x="20" y="193.5" width="335" height="280.5"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7gk-pL-hPj" userLabel="Header">
+                            <rect key="frame" x="0.0" y="0.0" width="335" height="40.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CẬP NHẬT DANH BẠ" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzA-6p-JHT">
+                                    <rect key="frame" x="10" y="10" width="315" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.50196078430000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="pzA-6p-JHT" firstAttribute="top" secondItem="7gk-pL-hPj" secondAttribute="top" constant="10" id="Opt-Zf-yzd"/>
+                                <constraint firstItem="pzA-6p-JHT" firstAttribute="leading" secondItem="7gk-pL-hPj" secondAttribute="leading" constant="10" id="Qjb-KL-2Mq"/>
+                                <constraint firstAttribute="bottom" secondItem="pzA-6p-JHT" secondAttribute="bottom" constant="10" id="n8G-Kn-zkL"/>
+                                <constraint firstAttribute="trailing" secondItem="pzA-6p-JHT" secondAttribute="trailing" constant="10" id="q6m-Wk-6JD"/>
+                            </constraints>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ViY-Bf-sL7">
+                            <rect key="frame" x="10" y="50.5" width="315" height="170"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Tên liên hệ *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r9O-aM-7Mf" customClass="MySkyTextField" customModule="VNPTVideoCallSample" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="315" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="M75-jf-8Gx"/>
+                                    </constraints>
+                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Tên liên hệ *"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Nhập tên liên hệ"/>
+                                    </userDefinedRuntimeAttributes>
+                                </textField>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mô tả liên hệ *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5dy-p2-E7y" customClass="MySkyTextField" customModule="VNPTVideoCallSample" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="60" width="315" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="3GK-HK-e7H"/>
+                                    </constraints>
+                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Mô tả liên hệ *"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Nhập mô tả liên hệ"/>
+                                    </userDefinedRuntimeAttributes>
+                                </textField>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Device ID *" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fJl-Zj-6dH" customClass="MySkyTextField" customModule="VNPTVideoCallSample" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="120" width="315" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="KGr-k4-b1b"/>
+                                    </constraints>
+                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Device ID *"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Nhập Device ID"/>
+                                    </userDefinedRuntimeAttributes>
+                                </textField>
+                            </subviews>
+                        </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EuA-gL-hx1">
+                            <rect key="frame" x="10" y="230.5" width="152.5" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="cC6-f5-Cva"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                            <state key="normal" title="Bỏ qua">
+                                <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRh-6W-27K">
+                            <rect key="frame" x="172.5" y="230.5" width="152.5" height="40"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                            <state key="normal" title="Lưu"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="EuA-gL-hx1" secondAttribute="bottom" constant="10" id="8fQ-8S-ZHb"/>
+                        <constraint firstItem="YRh-6W-27K" firstAttribute="leading" secondItem="EuA-gL-hx1" secondAttribute="trailing" constant="10" id="CRU-tf-thb"/>
+                        <constraint firstItem="ViY-Bf-sL7" firstAttribute="leading" secondItem="MBB-ZE-ofH" secondAttribute="leading" constant="10" id="Ivr-tx-lcz"/>
+                        <constraint firstItem="ViY-Bf-sL7" firstAttribute="top" secondItem="7gk-pL-hPj" secondAttribute="bottom" constant="10" id="Jv7-uQ-QsE"/>
+                        <constraint firstItem="YRh-6W-27K" firstAttribute="width" secondItem="EuA-gL-hx1" secondAttribute="width" id="TGs-nb-Yac"/>
+                        <constraint firstItem="YRh-6W-27K" firstAttribute="height" secondItem="EuA-gL-hx1" secondAttribute="height" id="Ttn-dy-842"/>
+                        <constraint firstAttribute="trailing" secondItem="7gk-pL-hPj" secondAttribute="trailing" id="cqz-dC-LYq"/>
+                        <constraint firstItem="7gk-pL-hPj" firstAttribute="top" secondItem="MBB-ZE-ofH" secondAttribute="top" id="diS-pb-Ywv"/>
+                        <constraint firstItem="7gk-pL-hPj" firstAttribute="leading" secondItem="MBB-ZE-ofH" secondAttribute="leading" id="ePq-fp-GcI"/>
+                        <constraint firstItem="EuA-gL-hx1" firstAttribute="top" secondItem="ViY-Bf-sL7" secondAttribute="bottom" constant="10" id="hwS-3G-sLH"/>
+                        <constraint firstAttribute="trailing" secondItem="ViY-Bf-sL7" secondAttribute="trailing" constant="10" id="izj-wh-XY3"/>
+                        <constraint firstItem="YRh-6W-27K" firstAttribute="centerY" secondItem="EuA-gL-hx1" secondAttribute="centerY" id="mt3-xH-e8K"/>
+                        <constraint firstItem="EuA-gL-hx1" firstAttribute="leading" secondItem="MBB-ZE-ofH" secondAttribute="leading" constant="10" id="wsc-gG-VFE"/>
+                        <constraint firstAttribute="trailing" secondItem="YRh-6W-27K" secondAttribute="trailing" constant="10" id="yga-vW-8f5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="2Km-TP-VuM"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="MBB-ZE-ofH" firstAttribute="centerY" secondItem="mCE-h3-nMO" secondAttribute="centerY" id="03B-Jn-fmn"/>
+                <constraint firstItem="MBB-ZE-ofH" firstAttribute="leading" secondItem="mCE-h3-nMO" secondAttribute="leading" constant="20" id="9P2-bb-dOe"/>
+                <constraint firstAttribute="trailing" secondItem="MBB-ZE-ofH" secondAttribute="trailing" constant="20" id="Dlo-U9-4kF"/>
+                <constraint firstItem="LWC-et-tD4" firstAttribute="top" secondItem="2Km-TP-VuM" secondAttribute="top" id="HHS-H9-Lf6"/>
+                <constraint firstAttribute="bottom" secondItem="LWC-et-tD4" secondAttribute="bottom" id="fag-kY-NCr"/>
+                <constraint firstItem="LWC-et-tD4" firstAttribute="leading" secondItem="mCE-h3-nMO" secondAttribute="leading" id="kQ3-Xt-Oc0"/>
+                <constraint firstAttribute="trailing" secondItem="LWC-et-tD4" secondAttribute="trailing" id="ljK-zb-ryG"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="153.34821428571428"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="5dy-p2-E7y">
+            <size key="intrinsicContentSize" width="315" height="39.220703125"/>
+        </designable>
+        <designable name="fJl-Zj-6dH">
+            <size key="intrinsicContentSize" width="315" height="39.220703125"/>
+        </designable>
+        <designable name="r9O-aM-7Mf">
+            <size key="intrinsicContentSize" width="315" height="39.220703125"/>
+        </designable>
+    </designables>
+</document>
