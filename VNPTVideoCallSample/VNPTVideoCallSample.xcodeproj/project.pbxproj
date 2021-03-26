@@ -38,8 +38,8 @@
 		07F14285252D98E400678F4F /* PersonViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F14271252D98E400678F4F /* PersonViewCell.xib */; };
 		07F14286252D98E400678F4F /* PersonViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F14272252D98E400678F4F /* PersonViewCell.swift */; };
 		D7476A4A2603411200E73CBB /* ToastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7476A492603411200E73CBB /* ToastService.swift */; };
-		D7509596260C48D8008FDD3A /* VNPTVideoCallSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7509594260C4890008FDD3A /* VNPTVideoCallSDK.framework */; };
-		D7509597260C48D8008FDD3A /* VNPTVideoCallSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7509594260C4890008FDD3A /* VNPTVideoCallSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D7E74BDA260C9E7000EF04C9 /* VNPTVideoCallSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E74BD8260C9E6900EF04C9 /* VNPTVideoCallSDK.framework */; };
+		D7E74BDB260C9E7000EF04C9 /* VNPTVideoCallSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7E74BD8260C9E6900EF04C9 /* VNPTVideoCallSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E8C2DE544ECDA5F1D7A87927 /* Pods_VNPTVideoCallSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D99E191F11FF15CA527E77D /* Pods_VNPTVideoCallSample.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +50,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D7509597260C48D8008FDD3A /* VNPTVideoCallSDK.framework in Embed Frameworks */,
+				D7E74BDB260C9E7000EF04C9 /* VNPTVideoCallSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,8 +95,8 @@
 		2EE268D9DFD8CD845C716483 /* Pods-VNPTVideoCallSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNPTVideoCallSample.debug.xcconfig"; path = "Target Support Files/Pods-VNPTVideoCallSample/Pods-VNPTVideoCallSample.debug.xcconfig"; sourceTree = "<group>"; };
 		62EAD9EF2573019F69058DF0 /* Pods-VNPTVideoCallSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNPTVideoCallSample.release.xcconfig"; path = "Target Support Files/Pods-VNPTVideoCallSample/Pods-VNPTVideoCallSample.release.xcconfig"; sourceTree = "<group>"; };
 		D7476A492603411200E73CBB /* ToastService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastService.swift; sourceTree = "<group>"; };
-		D7509594260C4890008FDD3A /* VNPTVideoCallSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VNPTVideoCallSDK.framework; sourceTree = "<group>"; };
 		D7B8DC1A260C2F0E00C6BFB8 /* VNPTVideoCallSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VNPTVideoCallSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E74BD8260C9E6900EF04C9 /* VNPTVideoCallSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VNPTVideoCallSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8C2DE544ECDA5F1D7A87927 /* Pods_VNPTVideoCallSample.framework in Frameworks */,
-				D7509596260C48D8008FDD3A /* VNPTVideoCallSDK.framework in Frameworks */,
+				D7E74BDA260C9E7000EF04C9 /* VNPTVideoCallSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +151,7 @@
 		07A90A682580673C002DF00D /* VNPTVideoCallSDK */ = {
 			isa = PBXGroup;
 			children = (
-				D7509594260C4890008FDD3A /* VNPTVideoCallSDK.framework */,
+				D7E74BD8260C9E6900EF04C9 /* VNPTVideoCallSDK.framework */,
 			);
 			path = VNPTVideoCallSDK;
 			sourceTree = "<group>";
