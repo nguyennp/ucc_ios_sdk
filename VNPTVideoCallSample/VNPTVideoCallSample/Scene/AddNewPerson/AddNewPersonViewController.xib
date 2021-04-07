@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -88,8 +88,8 @@
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <textInputTraits key="textInputTraits"/>
                                     <userDefinedRuntimeAttributes>
-                                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Device ID *"/>
-                                        <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Nhập Device ID"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Customer ID *"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Nhập Customer ID"/>
                                     </userDefinedRuntimeAttributes>
                                 </textField>
                             </subviews>
@@ -145,13 +145,13 @@
     </objects>
     <designables>
         <designable name="5dy-p2-E7y">
-            <size key="intrinsicContentSize" width="315" height="39.220703125"/>
+            <size key="intrinsicContentSize" width="121" height="18.5"/>
         </designable>
         <designable name="fJl-Zj-6dH">
-            <size key="intrinsicContentSize" width="315" height="39.220703125"/>
+            <size key="intrinsicContentSize" width="119" height="18.5"/>
         </designable>
         <designable name="r9O-aM-7Mf">
-            <size key="intrinsicContentSize" width="315" height="39.220703125"/>
+            <size key="intrinsicContentSize" width="105" height="18.5"/>
         </designable>
     </designables>
 </document>
