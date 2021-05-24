@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		whtpJitAFB1Nvugo8ggueRsPbE8=
+		sA2u9UKDdYKtphbKmyyPNcXuJgE=
 		</data>
 		<key>Headers/VNPTVideoCallSDK-Swift.h</key>
 		<data>
-		Orqr3Z2aJR6LOvb1X/pmy19gVS4=
+		FwjTQ8k1agUMT55B3yIDhZNCyv8=
 		</data>
 		<key>Headers/VNPTVideoCallSDK.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>IncomingCallViewController.nib</key>
 		<data>
-		Bpx3Dw/uyrZd4FaGchVLnEM7QKk=
+		HCr7ESnZ8HfH44lZFk6uZLK3YPo=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fhjhby+iBwWjICgH0hh/CfotR+k=
+		gXuuVVRE8gCg+NjmnnJyxUtY8jo=
 		</data>
 		<key>Localizable.strings</key>
 		<data>
@@ -30,27 +30,27 @@
 		</data>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		ks8nBjfa40EBGNzymNrtdHDof4U=
+		DeeqbmjJEmzDJKgyS22zc/+8IPU=
 		</data>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		ks8nBjfa40EBGNzymNrtdHDof4U=
+		DeeqbmjJEmzDJKgyS22zc/+8IPU=
 		</data>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		hWAtnL+/uM8o5vPrG7f72Yf2mVA=
+		XarhN88PoMvVL7HJZtOew9Du2Dc=
 		</data>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Npy1oZTPGoQoEAdJCXv/OBwtuaM=
+		yBPiaQlIJPoUAOhWVekPXSzEDlw=
 		</data>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		hWAtnL+/uM8o5vPrG7f72Yf2mVA=
+		XarhN88PoMvVL7HJZtOew9Du2Dc=
 		</data>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Npy1oZTPGoQoEAdJCXv/OBwtuaM=
+		yBPiaQlIJPoUAOhWVekPXSzEDlw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>OutgoingCallViewController.nib</key>
 		<data>
-		Dp9ERnSlj2vRR/wy7JMODyeOONY=
+		Sgb5RvzS7/zGucpfv2d4lAx5OsY=
 		</data>
 		<key>api.idg.vnpt.vn.cer</key>
 		<data>
@@ -83,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6+HxGOCJ42ydfbdYBT7mWLFETF05fzCe/0SxGfSmSas=
+			ot5LgKLOoPkTsYGMIv1x0WHwNByYMupKhbXIT0Dz4q8=
 			</data>
 		</dict>
 		<key>Headers/VNPTVideoCallSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZNUPsJrYJF1zP9rZYrQ2LiZwvDyQ8JVSSK6G3I8QOvE=
+			PX8IhuStqYvDrhJV3Che2U9mqps41FPKWSJxxSAhu1k=
 			</data>
 		</dict>
 		<key>Headers/VNPTVideoCallSDK.h</key>
@@ -104,7 +104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Iqy5NMeLoVXCuNdD8H/R1OVP3nlY2JIZVn4LLLL0yvk=
+			68DXA+eVsZl8ZQvZeGGxnjgLzzIlgJd25BDtVPuR3+k=
 			</data>
 		</dict>
 		<key>Localizable.strings</key>
@@ -118,42 +118,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y51T00cKP4CQJrF/U6sJODaleWpogQeSGpFIuUge93k=
+			ivgUi9Q7ThhcTJztGdb5aBp6NlQQ1Wa4Xc3I7xeiUQk=
 			</data>
 		</dict>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y51T00cKP4CQJrF/U6sJODaleWpogQeSGpFIuUge93k=
+			ivgUi9Q7ThhcTJztGdb5aBp6NlQQ1Wa4Xc3I7xeiUQk=
 			</data>
 		</dict>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W8lC863zRLSvnBrXbUvHTmi+WOhKK4ZrodDoGgSuTKU=
+			eUNjE49o2xIgbxyt3gSchYCsKAHs2g3mIvTX3/Tec1E=
 			</data>
 		</dict>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OdXzXfZfFdVEwzv/h/XVVlDDe3ZMPc7EDGt5p8sS86o=
+			LTQCpWo9+Dgy6+6OEUQRpQOZmLwWa9BBAA5/drualZI=
 			</data>
 		</dict>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W8lC863zRLSvnBrXbUvHTmi+WOhKK4ZrodDoGgSuTKU=
+			eUNjE49o2xIgbxyt3gSchYCsKAHs2g3mIvTX3/Tec1E=
 			</data>
 		</dict>
 		<key>Modules/VNPTVideoCallSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OdXzXfZfFdVEwzv/h/XVVlDDe3ZMPc7EDGt5p8sS86o=
+			LTQCpWo9+Dgy6+6OEUQRpQOZmLwWa9BBAA5/drualZI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -167,7 +167,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bD1zx/h1xC+Ste0GnMBZZNnOodZth18KoXLNZKT8nso=
+			YUb/iGSbnFfDsybzsqFZmEBZ2hD4fC700emslv9leSM=
 			</data>
 		</dict>
 		<key>api.idg.vnpt.vn.cer</key>

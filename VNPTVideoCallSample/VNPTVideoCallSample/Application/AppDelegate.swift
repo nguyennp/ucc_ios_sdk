@@ -50,10 +50,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         VNPTMeetConfig.shared.TIMEOUT_CONNECTION = 240.0
         VNPTMeetConfig.shared.TIMEOUT_INTERVAL = 2400.0
         VNPTMeetConfig.shared.VERSION = ""
-        VNPTMeetConfig.shared.TOKEN_ID = ""
-        VNPTMeetConfig.shared.TOKEN_KEY = ""
-        VNPTMeetConfig.shared.CLIENT_ID = ""
-        VNPTMeetConfig.shared.CLIENT_SECRET = ""
+        VNPTMeetConfig.shared.TOKEN_ID = "c2cfc739-38dd-86b3-e053-604fc10a3fe3"
+        VNPTMeetConfig.shared.TOKEN_KEY = "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAITNxJZ6mZko++nXfGoKdN73CfrZLpKGHDN0x6JGjOWjZ0j7nZhn9ez0sjXZMtn+e0+yWQ5/rH209TdLgownIWkCAwEAAQ=="
+        VNPTMeetConfig.shared.CLIENT_ID = "AQWlnsxU5IP29cIIAW7D6A6w7zLouxBjRAO1zUA2"
+        VNPTMeetConfig.shared.CLIENT_SECRET = "ltf1JJ4QxB03l6LLIaB3KQqFsyxPrHotRXMmQIV5"
         VNPTMeet.shared.delegate = self
     }
 }

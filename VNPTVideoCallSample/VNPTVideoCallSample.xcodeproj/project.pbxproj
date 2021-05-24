@@ -594,9 +594,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = VNPTVideoCallSample/VNPTVideoCallSample.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 27;
-				DEVELOPMENT_TEAM = JPMH34L85K;
+				DEVELOPMENT_TEAM = 9AK576J4RE;
 				"EXCLUDED_ARCHS[sdk=*]" = armv7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -610,8 +611,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.0.7_release_alpha;
-				PRODUCT_BUNDLE_IDENTIFIER = vn.vnpt.idgai;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.vnpt.videocalltest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -624,9 +626,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = VNPTVideoCallSample/VNPTVideoCallSample.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 27;
-				DEVELOPMENT_TEAM = JPMH34L85K;
+				DEVELOPMENT_TEAM = 9AK576J4RE;
 				"EXCLUDED_ARCHS[sdk=*]" = armv7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -640,8 +643,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.0.7_release_alpha;
-				PRODUCT_BUNDLE_IDENTIFIER = vn.vnpt.idgai;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.vnpt.videocalltest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

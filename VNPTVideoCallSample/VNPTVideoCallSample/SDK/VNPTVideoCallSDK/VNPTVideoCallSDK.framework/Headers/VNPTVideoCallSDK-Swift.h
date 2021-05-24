@@ -232,6 +232,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CallProvider
 - (void)handlingCallPushWithData:(CallingPerson * _Nonnull)data;
 @end
 
+@class CXCallObserver;
+@class CXCall;
+
+@interface CallProviderDelegate (SWIFT_EXTENSION(VNPTVideoCallSDK)) <CXCallObserverDelegate>
+- (void)callObserver:(CXCallObserver * _Nonnull)callObserver callChanged:(CXCall * _Nonnull)call;
+@end
 
 
 @class CXProvider;
@@ -248,6 +254,7 @@ SWIFT_AVAILABILITY(ios,introduced=10.0)
 - (void)provider:(CXProvider * _Nonnull)provider performEndCallAction:(CXEndCallAction * _Nonnull)action;
 - (void)provider:(CXProvider * _Nonnull)provider performStartCallAction:(CXStartCallAction * _Nonnull)action;
 @end
+
 
 @class PKPushRegistry;
 @class PKPushCredentials;
@@ -302,6 +309,7 @@ SWIFT_CLASS("_TtC16VNPTVideoCallSDK14StompClientLib")
 - (void)ackWithMessageId:(NSString * _Nonnull)messageId withSubscription:(NSString * _Nonnull)subscription;
 - (void)disconnect;
 - (void)reconnectWithRequest:(NSURLRequest * _Nonnull)request delegate:(id <StompClientLibDelegate> _Nonnull)delegate connectionHeaders:(NSDictionary<NSString *, NSString *> * _Nonnull)connectionHeaders time:(double)time exponentialBackoff:(BOOL)exponentialBackoff;
+- (void)stopReconnect;
 - (void)autoDisconnectWithTime:(double)time;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -326,6 +334,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) VNPTMeet * _
 + (VNPTMeet * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, weak) id <VNPTMeetDelegate> _Nullable delegate;
 @property (nonatomic, readonly, copy) NSString * _Nonnull yourDeviceId;
+@property (nonatomic, readonly, copy) NSString * _Nonnull defaultDeviceName;
 @property (nonatomic, strong) PersonIdApp * _Nullable personIdApp;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
