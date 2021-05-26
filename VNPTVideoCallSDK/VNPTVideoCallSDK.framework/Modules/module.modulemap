@@ -1,0 +1,11 @@
+framework module VNPTVideoCallSDK {
+  umbrella header "VNPTVideoCallSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module VNPTVideoCallSDK.Swift {
+    header "VNPTVideoCallSDK-Swift.h"
+    requires objc
+}
