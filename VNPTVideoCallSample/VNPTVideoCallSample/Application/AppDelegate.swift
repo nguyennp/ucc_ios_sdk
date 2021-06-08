@@ -45,8 +45,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func configVNPTMeet() {
-        VNPTMeetConfig.shared.ENABLE_OUTGOING_CALL_WAITTING_SCREEN = false
-        VNPTMeetConfig.shared.IMCOMING_CALL_TIMEOUT = 70.0
+        VNPTMeetConfig.shared.ENABLE_OUTGOING_CALL_WAITTING_SCREEN = true
+        VNPTMeetConfig.shared.IMCOMING_CALL_TIMEOUT = 30.0
         VNPTMeetConfig.shared.TIMEOUT_CONNECTION = 240.0
         VNPTMeetConfig.shared.TIMEOUT_INTERVAL = 2400.0
         VNPTMeetConfig.shared.VERSION = ""
@@ -144,6 +144,16 @@ extension AppDelegate: VNPTMeetDelegate {
             return
         }
         ToastService.shared.showToast(message: "\(error?.responseCode ?? "No responseCode") - \(msg)")
+    }
+    
+    func vnptMeet(didIncomingCallTimeout timeout: Bool, withError error: VNPTMeetError?) {
+        print("printLog didIncomingCallTimeout..")
+        ToastService.shared.showToast(message: "Hết hạn cuộc gọi đến")
+    }
+    
+    func vnptMeet(didOutgoingCallTimeout timeout: Bool, withError error: VNPTMeetError?) {
+        print("printLog didOutgoingCallTimeout..")
+        ToastService.shared.showToast(message: "Hết hạn cuộc gọi đi")
     }
 }
 
