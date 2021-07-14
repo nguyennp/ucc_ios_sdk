@@ -281,6 +281,7 @@ SWIFT_CLASS("_TtC16VNPTVideoCallSDK13CallingPerson")
 
 SWIFT_CLASS("_TtC16VNPTVideoCallSDK11PersonIdApp")
 @interface PersonIdApp : NSObject
+- (nonnull instancetype)initWithId:(NSString * _Nonnull)id name:(NSString * _Nonnull)name;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -338,6 +339,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) VNPTMeet * _
 @property (nonatomic, readonly, copy) NSString * _Nonnull yourDeviceId;
 @property (nonatomic, readonly, copy) NSString * _Nonnull defaultDeviceName;
 @property (nonatomic, strong) PersonIdApp * _Nullable personIdApp;
+- (void)outgoingCallWithCaller:(PersonIdApp * _Nonnull)caller roomName:(NSString * _Nonnull)roomName :(NSArray<NSString *> * _Nonnull)recevicer additionalData:(NSDictionary<NSString *, id> * _Nullable)additionalData;
+- (void)endCallWithCall:(CallingPerson * _Nonnull)call;
+- (void)registerDevice;
+- (void)removeDevice;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -390,6 +395,10 @@ SWIFT_PROTOCOL("_TtP16VNPTVideoCallSDK16VNPTMeetDelegate_")
 
 SWIFT_CLASS("_TtC16VNPTVideoCallSDK13VNPTMeetError")
 @interface VNPTMeetError : NSObject
+@property (nonatomic, copy) NSString * _Nonnull responseCode;
+@property (nonatomic, copy) NSString * _Nonnull message;
+@property (nonatomic) NSError * _Nullable error;
+- (nonnull instancetype)initWithResponseCode:(NSString * _Nonnull)responseCode message:(NSString * _Nonnull)message error:(NSError * _Nullable)error;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
