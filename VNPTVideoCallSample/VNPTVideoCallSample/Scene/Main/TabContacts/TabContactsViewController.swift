@@ -166,7 +166,8 @@ extension TabContactsViewController: UITableViewDelegate, UITableViewDataSource 
         let row = sender.tag
         let item = self.dataSource![row]
         if let caller = VNPTMeet.shared.personIdApp {
-            VNPTMeet.shared.outgoingCall(caller: caller, roomName: item.HO_TEN, [item.DEVICE_ID])
+            let additionalData = ["abd": 123, "bdn": "456"] as [String : Any]
+            VNPTMeet.shared.outgoingCall(caller: caller, roomName: item.HO_TEN, item.DEVICE_ID, additionalData: additionalData)
         } else {
             self.tabBarController?.selectedIndex = 2
         }

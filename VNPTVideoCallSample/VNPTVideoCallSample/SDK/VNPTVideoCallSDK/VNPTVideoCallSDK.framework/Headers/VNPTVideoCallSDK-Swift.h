@@ -267,9 +267,21 @@ SWIFT_AVAILABILITY(ios,introduced=10.0)
 - (void)pushRegistry:(PKPushRegistry * _Nonnull)registry didReceiveIncomingPushWithPayload:(PKPushPayload * _Nonnull)payload forType:(PKPushType _Nonnull)type withCompletionHandler:(void (^ _Nonnull)(void))completion SWIFT_AVAILABILITY(ios,introduced=11.0);
 @end
 
+@class PersonIdApp;
 
 SWIFT_CLASS("_TtC16VNPTVideoCallSDK13CallingPerson")
 @interface CallingPerson : NSObject <NSCopying>
+@property (nonatomic, copy) NSString * _Nonnull domain;
+@property (nonatomic, copy) NSString * _Nonnull roomId;
+@property (nonatomic, copy) NSString * _Nonnull token;
+@property (nonatomic, copy) NSString * _Nonnull calling;
+@property (nonatomic, copy) NSString * _Nonnull publisher;
+@property (nonatomic, readonly) BOOL outgoing;
+@property (nonatomic, strong) PersonIdApp * _Nullable caller;
+@property (nonatomic, copy) NSArray<NSString *> * _Nonnull recevicer;
+@property (nonatomic, copy) NSString * _Nonnull roomName;
+@property (nonatomic, copy) NSString * _Nonnull callerIdDest;
+@property (nonatomic, copy) NSDictionary<NSString *, id> * _Nullable additionalData;
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -339,7 +351,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) VNPTMeet * _
 @property (nonatomic, readonly, copy) NSString * _Nonnull yourDeviceId;
 @property (nonatomic, readonly, copy) NSString * _Nonnull defaultDeviceName;
 @property (nonatomic, strong) PersonIdApp * _Nullable personIdApp;
-- (void)outgoingCallWithCaller:(PersonIdApp * _Nonnull)caller roomName:(NSString * _Nonnull)roomName :(NSArray<NSString *> * _Nonnull)recevicer additionalData:(NSDictionary<NSString *, id> * _Nullable)additionalData;
+- (void)outgoingCallWithCaller:(PersonIdApp * _Nonnull)caller roomName:(NSString * _Nonnull)roomName :(NSString * _Nonnull)callerIdDest additionalData:(NSDictionary<NSString *, id> * _Nullable)additionalData;
 - (void)endCallWithCall:(CallingPerson * _Nonnull)call;
 - (void)registerDevice;
 - (void)removeDevice;
@@ -372,6 +384,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) VNPTMeetConf
 @property (nonatomic, copy) NSString * _Nonnull TOKEN_KEY;
 @property (nonatomic, copy) NSString * _Nonnull CLIENT_ID;
 @property (nonatomic, copy) NSString * _Nonnull CLIENT_SECRET;
+@property (nonatomic, copy) NSString * _Nonnull TOKEN_ID_APP;
+@property (nonatomic, copy) NSString * _Nonnull TOKEN_ID_APP_DEST;
 @property (nonatomic, readonly, copy) NSString * _Nonnull TOPIC_USING;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
